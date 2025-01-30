@@ -1,0 +1,77 @@
+/* sidebar.css */
+
+.sidebar {
+  padding: 40px;
+  width: 343px;
+  height: 100%;
+  color: #ecf0f1;
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.logoSection {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  border-bottom: 1px solid #d9d9d9;
+  margin-bottom: 50px;
+
+  img {
+    height: 50px;
+  }
+}
+
+.sidebar li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  list-style: none;
+  border: 1px solid #d9d9d9;
+  border-radius: 12px;
+  padding: 5px 25px;
+
+  img {
+
+    width: 25px;
+    margin-bottom: 5px;
+}
+}
+
+.sidebar ul :hover {
+  background-color: #2dcb6f;
+}
+
+.sidebar a {
+  width: 100%;
+  color: #9a9a9a;
+  text-decoration: none;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 17.41px;
+}
+
+.sidebar .logo {
+  margin-bottom: 20px;
+}
+
+.loginAndRegister {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  border: 1px solid #d9d9d9;
+  padding-inline: 15px;
+  text-align: center;
+  border-radius: 12px;
+}
